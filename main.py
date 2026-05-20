@@ -159,12 +159,12 @@ def adatok_betoltese():
 
     rendszer = FoglalasiRendszer(legitarsasag)
 
-    rendszer.jegy_foglalasa("Kovács Anna", "B101", "2026-06-10")
-    rendszer.jegy_foglalasa("Nagy Béla", "B202", "2026-06-12")
-    rendszer.jegy_foglalasa("Tóth Csaba", "N303", "2026-07-01")
-    rendszer.jegy_foglalasa("Szabó Dóra", "B101", "2026-06-15")
-    rendszer.jegy_foglalasa("Kiss Erika", "B202", "2026-06-20")
-    rendszer.jegy_foglalasa("Varga Ferenc", "N303", "2026-07-05")
+    rendszer.jegy_foglalasa("Sanyi", "B101", "2026-06-10")
+    rendszer.jegy_foglalasa("Feri", "B202", "2026-06-12")
+    rendszer.jegy_foglalasa("Laci", "N404", "2026-07-01")
+    rendszer.jegy_foglalasa("Peti", "B101", "2026-06-15")
+    rendszer.jegy_foglalasa("Mirtillke", "B202", "2026-06-20")
+    rendszer.jegy_foglalasa("Rozi", "N505", "2026-07-05")
 
     return legitarsasag, rendszer
 
