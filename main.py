@@ -210,5 +210,4 @@ def menu():
         else:
             print("Hiba: Nincs ilyen menüpont.")
 
-
 menu()
